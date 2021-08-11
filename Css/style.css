@@ -1,0 +1,191 @@
+/* 
+radial gradient: #EE8CA2,#E7718B 
+section2 color: #F4F4F6
+section3 color: 
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+.inner{
+    width:75%;
+    margin: 0 auto;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+a{
+    padding: 8px;
+    background-color: white;
+    color: #242525;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 1.5s ease;
+}
+a:hover{
+    background-color: skyblue;
+}
+button{
+    background-color: #242525;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    transition: 1.5s ease;
+}
+button:hover{
+    background-color: #9dc6f7;
+    color: #292924;
+}
+
+.clear{
+    clear:both;
+}
+.sr-only{
+    display:none;
+}
+/* header */
+header{
+    background-color: #26292E;
+    width: 100%;
+}
+
+.logo{
+    color:whitesmoke;
+    font-family: "Butterfly kids";
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.logo , .top-nav{
+    margin: 0 95px;
+    float:left;
+}
+.so-list-item{
+    display: inline;
+}
+/* end header */
+
+/* main */
+.section1{
+    width:100%;
+    background-image: radial-gradient(at top, #EE8CA2,#E7718B);
+}
+.section1 .inner{
+    height: 210px;
+}
+.block1{
+    padding: 17px;
+    width: 45%;
+    font-size: x-small;
+}
+.block2{
+    margin-left: 90px;
+    padding-left: 40px;
+    width: 35%;
+    /* border: 1px solid green; */
+}
+
+.block1, .block2 {
+    float: left;
+}
+.section2{
+    width:100%;
+    background-color: #F4F4F6;
+    border-bottom: 5px solid #f7e4e8;
+}
+/* .section2 .inner{
+    border: 1px solid black;
+} */
+.block3, .block4, .block5{
+    margin: 15px 15px;
+    float: left;
+    width: 250px;
+    font-size: smaller;
+    /* border: 1px solid orangered; */
+}
+.block3{
+    margin-left: 30px
+}
+.icon-cloud-download{
+    font-size: 35px;
+}
+.icon-bubbles{
+    font-size: 35px;
+}
+.icon-star-half{
+    font-size: 35px;
+}
+.section3{
+    height: 340px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.block6{
+    width: 300px;
+    height: 240px;
+}
+
+.products{
+    margin: 15px;
+    width: 120px;
+    height: 64px;
+    background-color: #393a3a;
+    color: white;
+    border: 3px solid gray;
+    float: left;
+}
+.product{
+    padding: 10px 35px;
+}
+.icon-search{
+    font-size: 35px;
+}
+aside{
+    width: 350px; 
+
+    padding-top: 0;  
+}
+aside, .block6{
+    margin: 0 50px;
+    float: left;
+}
+
+/* end main */
+
+/* footer */
+footer{
+    background-color: #26292E;
+    color: white;
+}
+
+.footer-nav, .colophon{
+    float: left;
+    margin: 0 60px;
+}
+.colophon{
+    padding-top: 15px;
+}
+
+/* end footer */

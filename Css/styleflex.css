@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+.inner{
+    width:75%;
+    margin: 0 auto;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+
+
+
+a{  
+    padding: 8px;
+    background-color: white;
+    color: #242525;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 1.5s ease;
+}
+a:hover{
+    background-color: skyblue;
+}
+button{
+    background-color: #242525;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    transition: 1.5s ease;
+}
+button:hover{
+    background-color: #9dc6f7;
+    color: #292924;
+}
+.sr-only{
+    display:none;
+}
+/* header */
+
+header{
+    background-color: #26292E;
+    width: 100%;
+}
+header .inner{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.logo{
+    color:whitesmoke;
+    font-family: "Butterfly kids";
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.so-list-item{
+    display: inline;
+}
+
+
+/* end header */
+/* main */
+
+.section1{
+    width:100%;
+    background-image: radial-gradient(at top, #EE8CA2,#E7718B);
+}
+.section1 .inner{
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.block1{
+    width: 45%;
+    font-size: x-small;
+}
+.block2{
+    width: 35%;
+    /* border: 1px solid green; */
+}
+
+
+.section2{
+    width:100%;
+    background-color: #F4F4F6;
+    border-bottom: 5px solid #f7e4e8;
+}
+
+.section2 .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.block3, .block4, .block5{
+    width: 250px;
+    font-size: smaller;
+    /* border: 1px solid orangered; */
+}
+.block3{
+    margin-left: 30px
+}
+.icon-cloud-download{
+    font-size: 35px;
+}
+.icon-bubbles{
+    font-size: 35px;
+}
+.icon-star-half{
+    font-size: 35px;
+}
+.section3{
+    height: 340px;
+}
+
+.section3 .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.block6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 300px;
+    height: 240px;
+}
+
+.products{
+    width: 120px;
+    height: 64px;
+    background-color: #393a3a;
+    color: white;
+    border: 3px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    line-height: 85px;
+}
+.icon-search{
+    font-size: 35px;
+}
+
+aside{
+    width: 350px; 
+}
+
+/* end main */
+
+/* footer */
+footer{
+    background-color: #26292E;
+    color: white;
+}
+footer .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+/* end footer */
